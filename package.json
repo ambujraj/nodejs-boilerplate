@@ -1,5 +1,5 @@
 {
-  "name": "jackfm-backend",
+  "name": "nodejs-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ambujraj/jackfm-backend.git"
+    "url": "git+https://github.com/ambujraj/nodejs-boilerplate.git"
   },
   "author": "Ambuj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ambujraj/jackfm-backend/issues"
+    "url": "https://github.com/ambujraj/nodejs-boilerplate/issues"
   },
-  "homepage": "https://github.com/ambujraj/jackfm-backend#readme",
+  "homepage": "https://github.com/ambujraj/nodejs-boilerplate#readme",
   "dependencies": {
     "aws-sdk": "^2.1028.0",
     "aws-serverless-express": "^3.4.0",
