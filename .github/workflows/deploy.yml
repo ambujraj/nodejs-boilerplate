@@ -21,7 +21,7 @@ jobs:
 
     - name: Load secrets and save to .env
       run: |
-        aws secretsmanager get-secret-value --secret-id jackfm-secrets --query SecretString --output text | jq -r 'to_entries|map("\(.key)=\(.value)")|.[]' > .env
+        aws secretsmanager get-secret-value --secret-id <AWS-SECRET-NAME> --query SecretString --output text | jq -r 'to_entries|map("\(.key)=\(.value)")|.[]' > .env
 
     - name: Deploy to AWS Lambda
       run: |
