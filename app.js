@@ -21,6 +21,3 @@ app.use('*', (req, res) => {
 });
 
 module.exports = app;
-
-// Notes -
-// Online users - https://stackoverflow.com/questions/47561708/count-number-of-online-users-with-nodejs-and-socket-io-without-duplicates
